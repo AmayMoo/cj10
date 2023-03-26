@@ -16,6 +16,6 @@ clean:
 	/bin/rm -f $(OBJECT)
 
 fclean: clean
-		/bin/rm -f $(NAME)
+	/bin/rm -f $(NAME)
 
 re: fclean	all
